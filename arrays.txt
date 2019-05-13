@@ -1,0 +1,55 @@
+C++ syntactical function for traversing
+
+void traverse(int array[])
+{
+       for(int i=0; i<10; i++)   
+       {
+           cout<<array[i];
+       }
+}
+
+
+C++ syntactical function for inserting an element
+
+void insert(int array[], int n, int k, int item)
+{
+   for(int i=n-1; i>=k; i--) 
+      {
+         array[i+1]=array[i];
+      }
+      arr[k] = item;
+      n++;
+}
+
+
+C++ syntactical function to delete an element
+
+void delete(int arrar[], int n, int k)
+{
+    for(int i = k, i< n;i++)
+    {
+        array[i] = array[i+1];
+    }
+    n--;
+}
+
+C++ syntactical function to search an element in the array
+
+void linear search(int arr[], int n, item)
+   {
+      for(int i=0; i<n-1; i++)  
+       {
+         if(arr[i]==item)
+         loc++;
+       }
+       
+
+      if(loc) 
+      {
+          cout<<"Found"<<endl;
+      }
+      else 
+      {
+          cout<<"Not found"<<endl ;
+      }  
+   }
