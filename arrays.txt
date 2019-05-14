@@ -28,7 +28,7 @@ void delete(int arrar[], int n, int k)
 {
     for(int i = k, i< n;i++)
     {
-        array[i] = array[i+1];
+        array[i-1] = array[i];
     }
     n--;
 }
